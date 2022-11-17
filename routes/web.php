@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,6 @@ Route::get('/about', function () {
     return view ('layouts/about');
 });
 
-Route::get('/contacts', function () {
-    return view ('layouts/contacts');
-});
+Route::get('/contacts', [ContactsController::class, 'index']);
+
+
