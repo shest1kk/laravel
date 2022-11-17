@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/contacts.css') }}">
-    <title>Контакты</title>
-</head>
-<body>
+@extends ('layouts/index')
+
+@section ('title')
+<title>Контакты</title>
+@endsection
+
+@section ('header')
 <header class="contacts_header">
   <nav class="contacts_header__nav">
     <a href="/" class="contacts_header__home">Домой</a>
@@ -15,7 +12,9 @@
     <a href="/about" class="contacts_header__about">О нас</a>
   </nav>
 </header>
+@endsection
 
+@section ('main')
 <main class="contacts_main">
     <div class="contacts_main__promo">
         <ul class="contacts_contacts__list">
@@ -39,16 +38,7 @@
                 <img src="https://www.svgrepo.com/show/197946/vk-vk.svg" alt="" class="vkontakte__svg">
                 <a href="https://vk.com/axaxaaxaxaxaxxaxaaxxa" class="contacts_vk_link">ВКонтакте</a>
             </li>
-
         </ul>
     </div>
 </main>
-
-<footer class="footer">
-    <div class="footer__content">
-        <div class="footer__content__group">211-323</div>
-        <div class="footer__content__full-name">Пахарев Егор Вячеславович</div>
-    </div>
-</footer>
-</body>
-</html>
+@endsection

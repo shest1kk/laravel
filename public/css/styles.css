@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.header {
+.layout_header {
   width: 100%;
   height: 80px;
   display: flex;
@@ -79,13 +79,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f7f7f7;
 }
 
-.header__nav {
+.layout_header__nav {
   display: flex;
   width: 400px;
   justify-content: space-between;
 }
 
-.header__logo, .header__about, .header__contacts {
+.layout_header__logo,
+.layout_header__about,
+.layout_header__contacts {
   padding: 5px 10px;
   text-decoration: none;
   font-family: "Montseratt", sans-serif;
@@ -96,12 +98,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 
-.header__logo:hover, .header__about:hover, .header__contacts:hover {
+.layout_header__logo:hover,
+.layout_header__about:hover,
+.layout_header__contacts:hover {
   scale: 110%;
   transition: 0.6s;
 }
 
-.main {
+.layout_main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   height: calc(100vh - 80px);
 }
 
-.main__promo {
+.layout_main__promo {
   width: 400px;
   font-family: "Montseratt", sans-serif;
   font-size: 18px;
@@ -139,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
-.header {
+.shest1k_header {
   width: 100%;
   height: 80px;
   display: flex;
@@ -148,13 +152,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f7f7f7;
 }
 
-.header__nav {
+.shest1k_header__nav {
   display: flex;
   width: 400px;
   justify-content: space-between;
 }
 
-.header__about, .header__contacts, .header__home {
+.shest1k_header__about,
+.shest1k_header__contacts,
+.shest1k_header__home {
   padding: 5px 10px;
   text-decoration: none;
   font-family: "Montseratt", sans-serif;
@@ -165,12 +171,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 
-.header__about:hover, .header__contacts:hover, .header__home:hover {
+.shest1k_header__about:hover,
+.shest1k_header__contacts:hover,
+.shest1k_header__home:hover {
   scale: 110%;
   transition: 0.6s;
 }
 
-.main__image {
+.shest1k_main__image {
   width: 100%;
   height: calc(100vh - 80px);
 }
@@ -193,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
-.header {
+.about_header {
   width: 100%;
   height: 80px;
   display: flex;
@@ -202,13 +210,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f7f7f7;
 }
 
-.header__nav {
+.about_header__nav {
   display: flex;
   width: 400px;
   justify-content: space-between;
 }
 
-.header__logo, .header__about, .header__contacts, .header__home {
+.about_header__logo,
+.about_header__contacts,
+.about_header__home {
   padding: 5px 10px;
   text-decoration: none;
   font-family: "Montseratt", sans-serif;
@@ -219,12 +229,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 
-.header__logo:hover, .header__about:hover, .header__contacts:hover, .header__home:hover {
+.about_header__logo:hover,
+.about_header__contacts:hover,
+.about_header__home:hover {
   scale: 110%;
   transition: 0.6s;
 }
 
-.main {
+.about_main {
   width: 100%;
   height: calc(100% - 80px);
   background-color: #f7f7f7;
@@ -234,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 
-.main__promo {
+.about_main__promo {
   font-family: "Montseratt", sans-serif;
   font-size: 20px;
   width: 1000px;
@@ -259,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
-.header {
+.contacts_header {
   width: 100%;
   height: 80px;
   display: flex;
@@ -268,13 +280,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f7f7f7;
 }
 
-.header__nav {
+.contacts_header__nav {
   display: flex;
   width: 400px;
   justify-content: space-between;
 }
 
-.header__logo, .header__about, .header__home {
+.contacts_header__logo,
+.contacts_header__about,
+.contacts_header__home {
   padding: 5px 10px;
   text-decoration: none;
   font-family: "Montseratt", sans-serif;
@@ -285,12 +299,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 
-.header__logo:hover, .header__about:hover, .header__home:hover {
+.contacts_header__logo:hover,
+.contacts_header__about:hover,
+.contacts_header__home:hover {
   scale: 110%;
   transition: 0.6s;
 }
 
-.main {
+.contacts_main {
   width: 100%;
   height: calc(100% - 80px);
   display: flex;
@@ -298,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-.main__promo {
+.contacts_main__promo {
   height: 150px;
   background-color: #f7f7f7;
   display: flex;
@@ -307,19 +323,27 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 15px;
 }
 
-.contacts__list {
+.contacts_contacts__list {
   display: flex;
   align-items: center;
   flex-direction: column;
   line-height: 1.5;
 }
 
-.number, .email, .street, .telegram, .vk {
+.contacts_number_link,
+.contacts_email_link,
+.contacts_address_link,
+.contacts_telegram_link,
+.contacts_vk_link {
   text-decoration: none;
   color: #000;
 }
 
-.contacts__number, .contacts__email, .contacts__street, .contacts__telegram, .contacts__vk {
+.contacts_contacts__number,
+.contacts_contacts__email,
+.contacts_contacts__street,
+.contacts_contacts__telegram,
+.contacts_contacts__vk {
   width: 400px;
   display: flex;
   justify-content: center;
@@ -327,10 +351,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-address {
-  text-decoration: none;
-}
-
+/*
+.contacts_address_link {
+	text-decoration: none;
+} */
 .number__svg, .email__svg, .street__svg, .telegram__svg, .vkontakte__svg {
   width: 20px;
   height: 20px;

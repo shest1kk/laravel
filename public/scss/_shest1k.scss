@@ -1,4 +1,4 @@
-.header {
+.shest1k_header {
 	width: 100%;
     height: 80px;
 	display: flex;
@@ -7,13 +7,15 @@
 	background-color: #f7f7f7;
 }
 
-.header__nav {
+.shest1k_header__nav {
 	display: flex;
 	width: 400px;
 	justify-content: space-between;
 }
 
-.header__about, .header__contacts, .header__home {
+.shest1k_header__about, 
+.shest1k_header__contacts, 
+.shest1k_header__home {
 	padding: 5px 10px;
 	text-decoration: none;
 	font-family: 'Montseratt', sans-serif;
@@ -24,12 +26,14 @@
 	transition: 1s;
 }
 
-.header__about:hover, .header__contacts:hover, .header__home:hover {
+.shest1k_header__about:hover, 
+.shest1k_header__contacts:hover, 
+.shest1k_header__home:hover {
 	scale: 110%;
 	transition: .6s;
 }
 
-.main__image {
+.shest1k_main__image {
 	width: 100%;
 	height: calc(100vh - 80px);
 }
