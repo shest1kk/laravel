@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +15,9 @@ use App\Http\Controllers\ContactsController;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts/layout');
-});
+// Route::get('/', function () {
+//     return view('layouts/layout');
+// });
 
 Route::get('/shest1k', function () {
     return view('layouts/shest1k');
@@ -26,6 +27,8 @@ Route::get('/about', function () {
     return view ('layouts/about');
 });
 
-Route::get('/contacts', [ContactsController::class, 'index']);
+Route::get('/contacts', [ContactsController::class, 'contacts']);
+
+Route::get('/', [MainController::class, 'index']);
 
 

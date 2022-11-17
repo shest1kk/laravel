@@ -15,8 +15,15 @@
 @endsection
 
 @section ('main')
-<main class="layout_main">
-  <div class="layout_main__promo">Приветствуем на нашей странице!<br/>
-Здесь вы можете узнать все последение новости мирового сообщества!</div>
-</main>
+@foreach ($results as $blablabla)
+
+<div class="layout_date">{{$blablabla['date']}}</div>
+<div class="layout_name">{{$blablabla['name']}}</div>
+<img src="{{ asset('/images/'.$blablabla['preview_image'])}}" alt="">
+<div class="layout_image"><a href="#" class="preview_image">{{$blablabla['preview_image']}}</a></div>
+<div class="layout_full_image"><a href="" class="full_image">{{$blablabla['full_image']}}</a></div>
+<div class="layout_shortDesc">{{$blablabla['shortDesc']}}</div>
+<div class="layout_desc">{{$blablabla['desc']}}</div>
+
+@endforeach
 @endsection
