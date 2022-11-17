@@ -1,0 +1,69 @@
+.header {
+	width: 100%;
+    height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f7f7f7;
+}
+
+.header__nav {
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+}
+
+.header__logo, .header__about, .header__contacts {
+	padding: 5px 10px;
+	text-decoration: none;
+	font-family: 'Montseratt', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #0093ff;
+	border-radius: 20px;
+	transition: 1s;
+}
+
+.header__logo:hover, .header__about:hover, .header__contacts:hover {
+	scale: 110%;
+	transition: .6s;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: calc(100vh - 80px);
+}
+
+.main__promo {
+	width: 400px;
+	font-family: 'Montseratt', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #0093ff;
+	border-radius: 25px;
+	padding: 15px 15px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+.footer {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f7f7f7;
+}
+
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	text-align: center;
+	font-family: 'Montseratt', sans-serif;
+	font-size: 16px;
+}

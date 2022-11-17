@@ -11,18 +11,18 @@
     <title>Shest1k</title>
 </head>
 <body>
-<header class="header">
-  <nav class="header__nav">
-    <a href="/" class="header__home">Домой</a>
-    <a href="/about" class="header__about">О нас</a>
-    <a href="/contacts" class="header__contacts">Контакты</a>
+<header class="shest1k_header">
+  <nav class="shest1k_header__nav">
+    <a href="/" class="shest1k_header__home">Домой</a>
+    <a href="/about" class="shest1k_header__about">О нас</a>
+    <a href="/contacts" class="shest1k_header__contacts">Контакты</a>
   </nav>
 </header>
-    <main class="main">
-        <div class="main__image__wrapper">
+    <main class="shest1k_main">
+        <div class="shest1k_main__image__wrapper">
             <img src="{{ asset ('images/7zCT0Cvi2wrYeetmBZKAxFmpaeOdtHhcQrUeua9RUOuSCJZHOlFnnU9lgwSGsqvY7fZwy1kAjQeoiwtKe3x3vzNs.jpg') }}" 
             alt=""
-            class="main__image">
+            class="shest1k_main__image">
         </div>
     </main>
 
