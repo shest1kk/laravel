@@ -1,4 +1,4 @@
-@extends ('layouts/index')
+@extends ('index/index')
 
 @section ('title')
 <title>shest1k</title>

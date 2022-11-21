@@ -15,20 +15,21 @@ use App\Http\Controllers\MainController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('layouts/layout');
-// });
-
 Route::get('/shest1k', function () {
-    return view('layouts/shest1k');
+    return view('main/shest1k');
 });
 
 Route::get('/about', function () {
-    return view ('layouts/about');
+    return view ('main/about');
 });
 
 Route::get('/contacts', [ContactsController::class, 'contacts']);
 
 Route::get('/', [MainController::class, 'index']);
+
+Route::post('/signin', function () {
+    return view ('auth/signin');
+});
+
 
 
