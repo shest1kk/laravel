@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,9 +28,10 @@ Route::get('/contacts', [ContactsController::class, 'contacts']);
 
 Route::get('/', [MainController::class, 'index']);
 
-Route::post('/signin', function () {
-    return view ('auth/signin');
-});
+Route::get('/signin', [AuthController::class, 'signin'])->name('signin');
+
+Route::post('/signin/check', [AuthController::class, 'signin_check']);
+
 
 
 
