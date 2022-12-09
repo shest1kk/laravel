@@ -16,7 +16,8 @@
 .layout_header__logo, 
 .layout_header__about, 
 .layout_header__contacts,
-.layout_header_signin {
+.layout_header_signin,
+.layout_header_news {
 	padding: 5px 10px;
 	text-decoration: none;
 	font-family: 'Montseratt', sans-serif;
@@ -30,7 +31,8 @@
 .layout_header__logo:hover, 
 .layout_header__about:hover, 
 .layout_header__contacts:hover,
-.layout_header_signin:hover {
+.layout_header_signin:hover,
+.layout_header_news:hover {
 	scale: 110%;
 	transition: .6s;
 }

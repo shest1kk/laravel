@@ -32,6 +32,10 @@ Route::get('/signin', [AuthController::class, 'signin'])->name('signin');
 
 Route::post('/signin/check', [AuthController::class, 'signin_check']);
 
+Route::get('/news', function () {
+    return view('main/news');
+});
+
 
 
 

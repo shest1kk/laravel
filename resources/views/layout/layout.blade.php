@@ -11,6 +11,7 @@
     <a href="/about" class="layout_header__about">О нас</a>
     <a href="/contacts" class="layout_header__contacts">Контакты</a>
     <a href="/signin" class="layout_header_signin">Авторизация</a>
+    <a href="/news" class="layout_header_news">Новости</a>
   </nav>
 </header>
 @endsection
